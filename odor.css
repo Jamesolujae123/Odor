@@ -384,4 +384,11 @@ section {
     display: block;
     text-align: center;
   }
+  .links {
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    width: 10px;
+    height: 10px;
+  }
 }
