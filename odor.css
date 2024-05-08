@@ -383,6 +383,7 @@ section {
   .header-link.responsive a {
     float: left;
     display: flex;
+    flex-direction: column;
     text-align: center;
   }
   .links {
