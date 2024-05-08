@@ -377,11 +377,12 @@ section {
 
 @media and (max-width: 730px) {
   .header-link.responsive {
+    display: flex;
     position: relative;
   }
   .header-link.responsive a {
     float: left;
-    display: block;
+    display: flex;
     text-align: center;
   }
   .links {
