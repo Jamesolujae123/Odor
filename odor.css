@@ -44,7 +44,7 @@ a:hover {
   column-gap: 30px;
 }
 .price-right-discount {
- text-decoration: line-through:
+ text-decoration: line-through;
   color: #7d7171;
 }
 main {
