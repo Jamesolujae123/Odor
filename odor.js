@@ -136,6 +136,13 @@ let result = 0;
 
 function cart(a) {
   result += a;
+  if (result < 0){
+    result = 0
+  }
+
+  if (result >= 15){
+    result = 15
+  }
 
   document.querySelector(".cart-input").innerHTML = result;
   let notification = document.querySelector(".notify");
