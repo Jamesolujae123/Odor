@@ -120,7 +120,7 @@ allProducts.map((product) => {
     productCard.appendChild(added);
     setTimeout(() => {
       productCard.removeChild(added);
-    }, 5000);
+    }, 2000);
   });
 
   starCont.classList.add("stars");
