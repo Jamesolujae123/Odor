@@ -386,10 +386,16 @@ section {
   main {
     display: flex; 
     flex-direction: column;
-    
+     padding-bottom: 20px;
 
 }
 
+.price-things {
+  width: max-content;
+  display: flex;
+  gap: 10px;
+}
+  
 main img {
  width: 350px;
 }
