@@ -43,6 +43,10 @@ a:hover {
   display: flex;
   column-gap: 30px;
 }
+.price-right-discount {
+ text-decoration: line-through:
+  color: #7d7171;
+}
 main {
   display: flex;
   padding-bottom: 20px;
