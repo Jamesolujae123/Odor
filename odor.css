@@ -430,7 +430,7 @@ section {
     height: 5px;
   }
     .header-icon i {
-    visibility: hidden;
+    display: none;
   }
 }
 
