@@ -432,5 +432,11 @@ section {
     .header-icon i {
     display: none;
   }
+.header {
+    display: flex;
+   justify-content: space-between;
+    margin: 10px;
+  }
+  
 }
 
